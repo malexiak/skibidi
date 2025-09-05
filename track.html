@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Odtwarzacz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script defer src="js/config.js"></script>
+  <script defer src="js/track.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="trackTitle">Ładowanie...</h1>
+    <audio id="player" controls></audio>
+    <br>
+    <button id="downloadBtn">Pobierz</button>
+    <p id="releaseInfo" class="muted"></p>
+    <button onclick="window.history.back()">Powrót</button>
+  </div>
+</body>
+</html>
